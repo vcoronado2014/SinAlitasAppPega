@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Mi Salud App</string>
+    <string name="Nombre_Usuario">Juan Luis Morán Garrido</string>
+    <!--LOGIN -->
+    <string name="login_hib_usuario">Usuario</string>
+    <string name="login_usuario">Usuario</string>
+    <string name="login_contraseña">Contraseña</string>
+    <string name="login_hib_contraseña">Contraseña</string>
+    <string name="login_recordar_usuario">Recordar Usuario</string>
+    <string name="login_boton_iniciar">Iniciar Sesión</string>
+    <string name="login_recuperar_contraseña">¿has olvidado tu contraseña?</string>
+    <!--  TITULO -->
+    <string name="menu_titulo">Antecedentes</string>
+    <string name="menu_sub_titulo">Eventos Actuales</string>
+    <string name="menu_atras">Atras</string>
+    <!-- ANTECEDENTES USUARIO -->
+    <string name="antecedentes_editar_foto">Editar</string>
+    <string name="antecedentes_etiqueta_rut">RUT</string>
+    <string name="antecedentes_rut"> </string>
+    <string name="antecedentes_etiqueta_edad">Edad</string>
+    <string name="antecedentes_edad"> </string>
+    <string name="antecedentes_etiqueta_alergias">Alergias</string>
+    <string name="antecedentes_alergias"> </string>
+    <!-- TARJETAS DE EVENTOS -->
+    <string name="tarjeta_titulo">Tratamientos</string>
+    <string name="tarjeta_nombre_usuario">Martina Isidora Morán Aedo</string>
+    <string name="tarjeta_informacion"> </string>
+    <string name="tarjeta_alerta">Tratamiento Actual</string>
+    <string name="tarjeta_fecha">10/07/2016</string>
+    <!-- DETALLES EVENTO ATENCION -->
+    <string name="evento_atencion_etiqueta_tipoAtencion">Tipo Atencion</string>
+    <string name="evento_atencion_resultado_tipo_Atencion"> </string>
+    <string name="evento_atencion_etiqueta_funcionario">Funcionario</string>
+    <string name="evento_atencion_resultado_funcionario"> </string>
+    <string name="evento_atencion_etiqueta_instrumento">Tipo</string>
+    <string name="evento_atencion_resultado_instrumento"> </string>
+    <string name="evento_atencion_etiqueta_fecha">Fecha</string>
+    <string name="evento_atencion_resultado_fecha"> </string>
+    <string name="evento_atencion_etiqueta_hora">Hora</string>
+    <string name="evento_atencion_resultado_hora"> </string>
+    <string name="evento_atencion_etiqueta_sector">Sector</string>
+    <string name="evento_atencion_resultado_sector"> </string>
+    <!-- DETALLES EVENTO ENTREAGA ALIMENTOS -->
+    <string name="evento_alimentos_etiqueta_fecha_entrega">Fecha de Entrega</string>
+    <string name="evento_alimentos_resultado_fecha_entrega"> </string>
+    <string name="evento_alimentos_etiqueta_alimentos">Alimentos</string>
+    <string name="evento_alimentos_resultado_alimentos"> </string>
+    <string name="evento_alimentos_etiqueta_programacion">Programacion</string>
+    <string name="evento_alimentos_resultado_programacion"> </string>
+    <string name="evento_alimentos_etiqueta_requisitos">Requisitos</string>
+    <string name="evento_alimentos_resultado_requisitos"> </string>
+    <!-- DETALLES EVENTO TRATAMIENTOS -->
+    <string name="evento_tratamiento_nombre_medicamento"> </string>
+    <string name="evento_tratamiento_posologia"> </string>
+    <string name="evento_tratamiento_etiqueta_fecha_emision">Fecha Emision</string>
+    <string name="evento_tratamiento_resultado_fecha_emision"> </string>
+    <string name="evento_tratamiento_etiqueta_estado">Estado</string>
+    <string name="evento_tratamiento_resultado_estado"> </string>
+    <string name="evento_tratamiento_etiqueta_proximo_despacho">Proximo Despacho</string>
+    <string name="evento_tratamiento_resultado_proximo_despacho"> </string>
+    <!-- DETALLES EVENTO VACUNA -->
+    <string name="evento_vacunas_etiqueta_fecha">Fecha Vacunacion</string>
+    <string name="evento_vacunas_fecha"> </string>
+    <string name="evento_vacunas_etiqueta_vacuna">Vacunas</string>
+    <string name="evento_vacunas_resultado_vacuna"> </string>
+    <!-- MENU FAMILIAR -->
+    <string name="side_bar_titulo">Mi Salud Familiar </string>
+    <string name="side_bar_etiqueta_sector">Sector: </string>
+    <string name="side_bar_sector"> </string>
+    <string name="side_bar_etiqueta_estaboecimiento">Establecimiento: </string>
+    <string name="side_bar_estaboecimiento"> </string>
+    <string name="side_bar_yo">(yo)</string>
+    <string name="side_bar_nombre_miembro_familia"> </string>
+    <string name="side_bar_volver_atras">Volver</string>
+    <string name="side_bar_pantalla_principal">Salir Vista Familiar</string>
+    <!--ANULAR CITAS-->
+    <string name="anular_cita_alerta">Al continuar con la anulacion de esta cita no pordra recuperarla.¿Desea continuar?</string>
+    <string name="anular_confirmacion">Anular Cita</string>
+    <string name="anular_cancelar">Cancelar</string>
+    <string name="title_activity_body">BodyActivity</string>
+
+    <string name="title_activity_web">WebActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

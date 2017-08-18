@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLime">#a4c400</color>
+    <color name="colorGreen">#60a917</color>
+    <color name="colorCyan">#1ba1e2</color>
+    <color name="colorCobalt">#0050ef</color>
+    <color name="colorMauve">#76608a</color>
+    <color name="colorTaupe">#87794e</color>
+    <color name="colorBotonIngreso">#C76B95</color>
+    <color name="color_1">#f0d0de</color>
+    <color name="color_2">#E6B1C9</color>
+    <color name="color_3">#DA90B2</color>
+    <color name="color_4">#c76b95</color>
+    <color name="color_5">#AE4876</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.misalud.saydex.misalud.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/logo_mi_familia"
+            android:layout_width="198dp"
+            android:layout_height="184dp"
+            android:src="@drawable/logomisalud"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            style="@style/inputStyle"
+            android:id="@+id/login_usuario"
+            android:hint="@string/login_usuario"
+            android:lines="1"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_alignTop="@+id/checkrecordar"
+            android:layout_alignLeft="@+id/editTextPass"
+            android:layout_alignStart="@+id/editTextPass"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+
+        <EditText
+            style="@style/inputStyle"
+            android:id="@+id/editTextPass"
+            android:hint="@string/login_contraseña"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_below="@+id/progressBar1"
+            android:layout_alignLeft="@+id/logo_mi_familia"
+            android:layout_alignStart="@+id/logo_mi_familia"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
+
+        <CheckBox
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:text="@string/login_recordar_usuario"
+            android:id="@+id/checkrecordar"
+            android:checked="false"
+            android:textColor="@color/color_5"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textSize="18dp"
+            android:textColor="#978a8a"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/login_boton_iniciar"
+            android:id="@+id/buttonlogin"
+            android:layout_below="@+id/tv_result"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/iconoequipo"
+        android:layout_weight="0.10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:text="@string/login_recuperar_contraseña"
+        android:id="@+id/recuperar_contraseña"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/editTextPass"
+        android:layout_alignStart="@+id/editTextPass" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="201dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
